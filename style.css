@@ -1,0 +1,63 @@
+/*punt1*/
+.Texto{
+    display:flex;
+    text-align: justify;
+    flex-direction:row;
+    
+}
+.parrafo1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.parrafo2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.parrafo3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 1px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+/*punt1*/
+
+/*punt2*/
+.cont-box {
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Centra el texto horizontalmente */
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Espacio entre el texto y los botones */
+}
+
+/* Estilos para los botones */
+.botones button {
+    margin: 5px;
+    padding: 10px 20px;
+    color: black;
+    font-size: 20px;
+
+}
+
+/*punt2*/
