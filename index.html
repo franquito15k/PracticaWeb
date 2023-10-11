@@ -3,45 +3,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--<link rel="stylesheet" href="style.css">-->
 </head>
 
 <body>
     <div> <!--Primer punto 1°-->
-        <div class="Texto"><!--Texto en columna-->
-            <div>
-                <h1 class="parrafo1">
-                    El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
-                </h1>
+        <!--Texto en columna-->
+        <div class="flex flex-row text-justify ">
+            <div class="mb-4 text-2xl font-serif text-4xl rounded-md py-5 bg-stone-200 ">
+                El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
             </div>
-            <div>
-                <h3 class="parrafo2">
-                    El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
-                </h3>
+            <div class="mb-4 text-xl font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+                El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
             </div>
-            <div class="parrafo3">
+            <div class="mb-4 text-base font-sans text-4xl rounded-md py-5 bg-stone-200 ">
                 Una de las características distintivas del taekwondo es su énfasis en el uso de patadas, especialmente las patadas altas y espectaculares que pueden ser utilizadas tanto en el combate como en las demostraciones. Los practicantes de taekwondo también aprenden una serie de formas o "poomsae" que son secuencias preestablecidas de movimientos diseñados para mejorar la técnica y la fluidez en el combate.
             </div>
-        </div><!--Texto en columna-->
-
-            <!--Texto en fila-->
-            <div>
-                <h1 class="parrafo1">
-                    El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
-                </h1>
+        </div>
+    </div><!--Texto en columna-->
+    
+    <!--Texto en fila-->
+    <div>  
+        <div class="flex flex-col">       
+            <div class="mb-4 text-2xl font-serif text-4xl rounded-md py-5 bg-stone-200 ">
+                El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
             </div>
-            <div>
-                <h3 class="parrafo2">
-                    El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
-                </h3>
+            <div class="mb-4 text-xl font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+                El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
             </div>
-            <div class="parrafo3">
+            <div class="mb-4 text-base font-sans text-4xl rounded-md py-5 bg-stone-200 ">
                 Una de las características distintivas del taekwondo es su énfasis en el uso de patadas, especialmente las patadas altas y espectaculares que pueden ser utilizadas tanto en el combate como en las demostraciones. Los practicantes de taekwondo también aprenden una serie de formas o "poomsae" que son secuencias preestablecidas de movimientos diseñados para mejorar la técnica y la fluidez en el combate.
             </div>
-            <!--Texto en fila-->
-    </div><!--Primer punto 1°-->
+        </div>
+    </div><!--Primer punto 1°--><!--Texto en fila-->
 
-    <div class="cont-box"><!--Segundo punto 2°-->
+    <div class="w-[500px] h-[400px] bg-black flex text-white justify-center items-center" ><!--Segundo punto 2°-->
         <div  id="display">
             Incrementa el numero:
         </div>
