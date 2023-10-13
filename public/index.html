@@ -4,20 +4,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <!--<link rel="stylesheet" href="style.css">-->
+    <!--<link rel="stylesheet" href="./css/style.css">-->
 </head>
 
 <body>
     <div> <!--Primer punto 1°-->
         <!--Texto en columna-->
-        <div class="flex flex-row text-justify ">
-            <div class="mb-4 text-2xl font-serif text-4xl rounded-md py-5 bg-stone-200 ">
+        <div class="flex flex-row text-justify">
+            <div class="mb-4 text-2xl font-serif rounded-md py-5 bg-stone-200 ">
                 El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
             </div>
-            <div class="mb-4 text-xl font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+            <div class="mb-4 text-xl font-sans rounded-md py-5 bg-stone-200 ">
                 El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
             </div>
-            <div class="mb-4 text-base font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+            <div class="mb-4 text-base font-sans rounded-md py-5 bg-stone-200 ">
                 Una de las características distintivas del taekwondo es su énfasis en el uso de patadas, especialmente las patadas altas y espectaculares que pueden ser utilizadas tanto en el combate como en las demostraciones. Los practicantes de taekwondo también aprenden una serie de formas o "poomsae" que son secuencias preestablecidas de movimientos diseñados para mejorar la técnica y la fluidez en el combate.
             </div>
         </div>
@@ -26,30 +26,32 @@
     <!--Texto en fila-->
     <div>  
         <div class="flex flex-col">       
-            <div class="mb-4 text-2xl font-serif text-4xl rounded-md py-5 bg-stone-200 ">
+            <div class="mb-4 text-2xl font-serif rounded-md py-5 bg-stone-200 ">
                 El taekwondo es un arte marcial que se originó en Corea en la década de 1940 y 1950. Es conocido por su énfasis en las patadas de alta potencia y las técnicas de piernas, aunque también incluye golpes de puño, bloqueos y técnicas de defensa personal. El taekwondo se ha convertido en un deporte popular en todo el mundo y es uno de los deportes de combate más practicados.
             </div>
-            <div class="mb-4 text-xl font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+            <div class="mb-4 text-xl font-sans rounded-md py-5 bg-stone-200 ">
                 El taekwondo se rige por una serie de reglas y competiciones en las que los practicantes pueden demostrar sus habilidades en combate. Además de ser un deporte de competición, el taekwondo también se enseña como una forma de defensa personal y como un medio para promover la autodisciplina, la confianza en uno mismo y la condición física.
             </div>
-            <div class="mb-4 text-base font-sans text-4xl rounded-md py-5 bg-stone-200 ">
+            <div class="mb-4 text-base font-sans rounded-md py-5 bg-stone-200 ">
                 Una de las características distintivas del taekwondo es su énfasis en el uso de patadas, especialmente las patadas altas y espectaculares que pueden ser utilizadas tanto en el combate como en las demostraciones. Los practicantes de taekwondo también aprenden una serie de formas o "poomsae" que son secuencias preestablecidas de movimientos diseñados para mejorar la técnica y la fluidez en el combate.
             </div>
         </div>
     </div><!--Primer punto 1°--><!--Texto en fila-->
 
-    <div class="w-[500px] h-[400px] bg-black flex text-white justify-center items-center" ><!--Segundo punto 2°-->
-        <div  id="display">
-            Incrementa el numero:
-        </div>
-        <div class="botones">    
-            <button id="botonesS" value="1">++</button>
-            <button id="botonesR" value="-1">--</button>
-        </div>
-    </div><!--Segundo punto 2°-->
+    <div class="flex flex-row justify-center items-center">
+        <div class="w-[500px] h-[400px] bg-black flex flex-col text-white justify-center items-center" ><!--Segundo punto 2°-->
+            <div  id="display">
+                Incrementa el numero: <!--no sirve de nd pero lo puse para saber q es lo q aparece en el js-->
+            </div>
+            <div>    
+                <button class="bg-blue-500 text-white border border-violet-200 py-1 px-4 rounded-s-lg hover:bg-blue-900 hover:border-blue-800" id="botonesS" value="1">+</button>
+                <button class="bg-blue-500 text-white border border-violet-200 py-1 px-4 rounded-r-lg hover:bg-blue-900 hover:border-blue-800" id="botonesR" value="-1">-</button>
+                <button class="bg-red-700 border border-violet-950 py-2 px-2 rounded-lg hover:bg-red-600 hover:border-violet-950 " id="reset" value="0">Reset </button>
+            </div>
+        </div><!--Segundo punto 2°-->
+    </div>
 
-
-<script src="script.js"></script>
+    <script src="/src/script.js"></script>
 </body>
 
 </html>
